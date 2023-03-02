@@ -1,0 +1,271 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  position: relative;
+}
+.logo {
+  width: 75px;
+  margin: 15px 30px;
+}
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navigations {
+  display: flex;
+}
+.navs {
+  margin: 0 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.mainpage {
+  height: 100vh;
+  background-color: #0a2647;
+}
+.mainContent {
+  display: flex;
+  width: 90%;
+  margin: 0px auto 100px auto;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.mainHeading1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.mainHeading2 {
+  font-size: 30px;
+  width: 400px;
+}
+.smallbox {
+  color: #0a2647;
+  background-color: white;
+  width: 900px;
+  line-height: 30px;
+  margin: auto;
+  position: absolute;
+  padding: 40px;
+  bottom: -130px;
+}
+.statement1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.statement2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.imagemain {
+  width: 550px;
+}
+
+/* content  */
+.info {
+  background-color: #0a2647;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+}
+.miniImages {
+  width: 50%;
+}
+
+.miniContent {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  line-height: 30px;
+  padding: 30px;
+  gap: 30px;
+}
+.miniHeading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.links {
+  text-decoration: underline;
+}
+.desktop {
+  width:50%;
+  -webkit-box-shadow: 5px 5px 24px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 24px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 24px -5px rgba(0, 0, 0, 0.75);
+}
+.phone {
+  height: 400px;
+  -webkit-box-shadow: 5px 5px 24px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 24px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 24px -5px rgba(0, 0, 0, 0.75);
+}
+.screenshots {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  margin: 100px auto;
+  width: fit-content;
+}
+.contactPart {
+  margin-top: 100px;
+  height: fit-content;
+  position: relative;
+}
+.imageBackground {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin: 100px 0;
+}
+.boxPart {
+  position: absolute;
+  background-color: #0a2647;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  height: fit-content;
+  width: 60%;
+  justify-content: space-between;
+  padding: 60px;
+  border-radius: 20px;
+}
+.formPart {
+  background-color: white;
+  color: #0a2647;
+  width: fit-content;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  height: fit-content;
+}
+.leftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.companyInfo {
+  line-height: 50px;
+}
+.socials {
+  margin: 20px;
+  
+}
+.socialLink{
+    width: 100%;
+    font-size: inherit;
+}
+.information {
+  font-size: 30px;
+  font-weight: 800;
+}
+.smallInfo {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.aboveForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.choosing {
+  margin: 10px 0;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-top: 30px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  height: 50px;
+  font-family: inherit;
+}
+input:focus {
+  outline: none;
+}
+button {
+  font-family: inherit;
+}
+.choose {
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  border: 0.5px solid #0a2647;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.choose:hover {
+  background-color: #0a2647;
+  color: white;
+}
+.submit {
+  background-color: #0a2647;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  color: white;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.footer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0a2647;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.copyright{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+.fontIcon{
+    margin-right: 10px;
+}
+.socialIcons{
+    font-size: 20px;
+}
+.bottom{
+    margin-top: 30px;
+}
+.bottomIc{
+    background-color: black;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+}
+.bottomIc:hover{
+    color: #0a2647;
+    background-color: white;
+}
+.tos{
+    text-decoration: underline;
+}
